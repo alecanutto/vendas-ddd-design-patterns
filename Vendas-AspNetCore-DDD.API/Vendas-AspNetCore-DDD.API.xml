@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vendas-AspNetCore-DDD.API</name>
+    </assembly>
+    <members>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.BaseController`2.Get">
+            <summary>
+            Retorna todos os registros
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.BaseController`2.GetById(System.Int32)">
+            <summary>
+            Retorna registro por Id
+            </summary>
+            <returns>Returns status ok</returns>      
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.BaseController`2.Post(`1)">
+            <summary>
+            Adiciona novo registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.BaseController`2.Put(`1)">
+            <summary>
+            Altera um registro
+            </summary>
+            <returns>return status ok</returns>  
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.BaseController`2.Delete(System.Int32)">
+            <summary>
+            Exclui um registro
+            </summary>
+            <returns>return status ok</returns> 
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.ItemVendaController.GetAllByVendaId(System.Int32)">
+            <summary>
+            Retorna todos os itens da venda
+            </summary>
+            <returns>Returns status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.ItemVendaController.Post(Vendas_AspNetCore_DDD.Application.DTOs.ItemVendaDTO)">
+            <summary>
+            Adiciona novo registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.ItemVendaController.Put(Vendas_AspNetCore_DDD.Application.DTOs.ItemVendaDTO)">
+            <summary>
+            Altera um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.ItemVendaController.Delete(Vendas_AspNetCore_DDD.Application.DTOs.ItemVendaDTO)">
+            <summary>
+            Exclui um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.ProdutoController.GetByName(System.String)">
+            <summary>
+            Retorna registro por nome
+            </summary>
+            <returns>Returns status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendaController.Get">
+            <summary>
+            Retorna todos os registros
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendaController.GetById(System.Int32)">
+            <summary>
+            Retorna registro por Id
+            </summary>
+            <returns>Returns status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendaController.Post(Vendas_AspNetCore_DDD.Application.DTOs.VendaDTO)">
+            <summary>
+            Adiciona novo registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendaController.Delete(Vendas_AspNetCore_DDD.Application.DTOs.VendaDTO)">
+            <summary>
+            Exclui um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendaController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendedorController.Get">
+            <summary>
+            Retorna todos os registros
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendedorController.GetById(System.Int32)">
+            <summary>
+            Retorna registro por Id
+            </summary>
+            <returns>Returns status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendedorController.Post(Vendas_AspNetCore_DDD.Application.Commands.AddVendedorCommand)">
+            <summary>
+            Adiciona novo registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendedorController.Put(Vendas_AspNetCore_DDD.Application.Commands.UpdateVendedorCommand)">
+            <summary>
+            Altera um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+        <member name="M:Vendas_AspNetCore_DDD.API.Controllers.VendedorController.Delete(System.Int32)">
+            <summary>
+            Exclui um registro
+            </summary>
+            <returns>return status ok</returns>
+        </member>
+    </members>
+</doc>

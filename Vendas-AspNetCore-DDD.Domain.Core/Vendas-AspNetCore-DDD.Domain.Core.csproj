@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Vendas_AspNetCore_DDD.Domain.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendas-AspNetCore-DDD.Domain\Vendas-AspNetCore-DDD.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

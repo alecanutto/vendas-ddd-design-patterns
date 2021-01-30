@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{4B5555DC-6A69-4E41-BADE-746BA9243042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{DF23EBB4-D9EA-4DA9-8AD9-5E382E02FC70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{DAF7E894-47E7-466F-A34B-918D0BB30687}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{1B5D56E4-CDA9-4026-8324-D9C53D63A668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Domain", "Vendas-AspNetCore-DDD.Domain\Vendas-AspNetCore-DDD.Domain.csproj", "{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Domain.Core", "Vendas-AspNetCore-DDD.Domain.Core\Vendas-AspNetCore-DDD.Domain.Core.csproj", "{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Domain.Services", "Vendas-AspNetCore-DDD.Domain.Services\Vendas-AspNetCore-DDD.Domain.Services.csproj", "{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{88F14E44-8EA0-4342-84F3-E81BA2E37F29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{A947DED7-13F8-488E-B5DF-02F10D2CAAD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Infra.Data", "Vendas-AspNetCore-DDD.Data\Vendas-AspNetCore-DDD.Infra.Data.csproj", "{2FC0871D-E8C7-4122-87ED-6F80E41B9698}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Infra.CrossCutting", "Vendas-AspNetCore-DDD.Infra.CrossCutting\Vendas-AspNetCore-DDD.Infra.CrossCutting.csproj", "{88C7E7BF-962E-42C3-A95B-63A9481E6EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.Application", "Vendas-AspNetCore-DDD.Application\Vendas-AspNetCore-DDD.Application.csproj", "{957B55DB-291A-4513-9F66-D5E22BE0467B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas-AspNetCore-DDD.API", "Vendas-AspNetCore-DDD.API\Vendas-AspNetCore-DDD.API.csproj", "{79B3228C-E202-4856-BCD2-A6B9E18C25E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC0871D-E8C7-4122-87ED-6F80E41B9698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC0871D-E8C7-4122-87ED-6F80E41B9698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC0871D-E8C7-4122-87ED-6F80E41B9698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC0871D-E8C7-4122-87ED-6F80E41B9698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C7E7BF-962E-42C3-A95B-63A9481E6EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C7E7BF-962E-42C3-A95B-63A9481E6EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C7E7BF-962E-42C3-A95B-63A9481E6EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C7E7BF-962E-42C3-A95B-63A9481E6EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957B55DB-291A-4513-9F66-D5E22BE0467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957B55DB-291A-4513-9F66-D5E22BE0467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957B55DB-291A-4513-9F66-D5E22BE0467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957B55DB-291A-4513-9F66-D5E22BE0467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B3228C-E202-4856-BCD2-A6B9E18C25E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B3228C-E202-4856-BCD2-A6B9E18C25E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B3228C-E202-4856-BCD2-A6B9E18C25E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B3228C-E202-4856-BCD2-A6B9E18C25E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7362C8D3-A787-40EE-B6D3-DA9718EBEE7A} = {DAF7E894-47E7-466F-A34B-918D0BB30687}
+		{CA5CA3E7-EA01-43E8-83F3-62E5B2450D3B} = {DAF7E894-47E7-466F-A34B-918D0BB30687}
+		{FC8E9E65-A652-48BA-8A78-8EAA53BC7F88} = {DAF7E894-47E7-466F-A34B-918D0BB30687}
+		{88F14E44-8EA0-4342-84F3-E81BA2E37F29} = {1B5D56E4-CDA9-4026-8324-D9C53D63A668}
+		{A947DED7-13F8-488E-B5DF-02F10D2CAAD5} = {1B5D56E4-CDA9-4026-8324-D9C53D63A668}
+		{2FC0871D-E8C7-4122-87ED-6F80E41B9698} = {88F14E44-8EA0-4342-84F3-E81BA2E37F29}
+		{88C7E7BF-962E-42C3-A95B-63A9481E6EA0} = {A947DED7-13F8-488E-B5DF-02F10D2CAAD5}
+		{957B55DB-291A-4513-9F66-D5E22BE0467B} = {DF23EBB4-D9EA-4DA9-8AD9-5E382E02FC70}
+		{79B3228C-E202-4856-BCD2-A6B9E18C25E2} = {4B5555DC-6A69-4E41-BADE-746BA9243042}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE41C7B1-A313-446B-962F-D13FFA53C127}
+	EndGlobalSection
+EndGlobal

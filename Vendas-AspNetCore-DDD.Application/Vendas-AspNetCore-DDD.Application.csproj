@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Vendas_AspNetCore_DDD.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="NetDevPack" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendas-AspNetCore-DDD.Domain.Services\Vendas-AspNetCore-DDD.Domain.Services.csproj" />
+    <ProjectReference Include="..\Vendas-AspNetCore-DDD.Domain\Vendas-AspNetCore-DDD.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
